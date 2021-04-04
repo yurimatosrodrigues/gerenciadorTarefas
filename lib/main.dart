@@ -4,7 +4,7 @@ import 'package:gerenciador_tarefa/telas/gerenciador_tarefas.dart';
 void main(){
   runApp(MaterialApp(
     home: Home(),
-
+    theme: ThemeData(primaryColor: Colors.deepPurple)
   ));
 
 }
